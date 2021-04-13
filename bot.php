@@ -12,7 +12,7 @@
     $start_msg = $_ENV['START_MSG']; 
 
 if($message == "/start"){
-    send_message($chat_id,$message_id, "***HOLA $firstname \nCOMANDO !bin xxxxxx PARA COMPROBAR BIN \n$start_msg***");
+    send_message($chat_id,$message_id, "***Hola $firstname \nComando !bin xxxxxx PARA COMPROBAR \n$start_msg***");
 }
 
 //Bin Lookup
